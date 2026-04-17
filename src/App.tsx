@@ -5,6 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { PortfolioProvider } from "@/context/PortfolioContext";
+import { I18nProvider } from "@/context/I18nContext";
 import { Layout } from "@/components/layout/Layout";
 import { GallerySkeleton } from "@/components/gallery/GallerySkeleton";
 
@@ -31,16 +32,18 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <PortfolioProvider>
-          <Suspense fallback={<LoadingFallback />}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/series/:slug" element={<SeriesPage />} />
-              <Route path="/about" element={<About />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </Suspense>
-        </PortfolioProvider>
+        <I18nProvider>
+          <PortfolioProvider>
+            <Suspense fallback={<LoadingFallback />}>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/series/:slug" element={<SeriesPage />} />
+                <Route path="/about" element={<About />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </Suspense>
+          </PortfolioProvider>
+        </I18nProvider>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
