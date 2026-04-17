@@ -1,5 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { usePortfolio } from "@/context/PortfolioContext";
+import { useI18n } from "@/context/I18nContext";
 import { FilmstripGallery } from "@/components/gallery/FilmstripGallery";
 import { GallerySkeleton } from "@/components/gallery/GallerySkeleton";
 import { SEO } from "@/components/seo/SEO";
@@ -7,28 +8,21 @@ import { useEffect } from "react";
 
 export default function Home() {
   const { series, photographer, loading, error } = usePortfolio();
+  const { t, lang } = useI18n();
 
   const featuredSeries = series.find((s) => s.featured) || series[0];
 
-  const seoTitle = featuredSeries
-    ? `${featuredSeries.title} - ${photographer?.name || "Portrait Photographer"}`
-    : photographer?.name || "Portrait Photographer Portfolio";
+  const seoTitle = photographer
+    ? `${photographer.name} — ${lang === "tr" ? "Harry Potter Evreni" : "Harry Potter Universe"}`
+    : "Wizarding Realm";
+  const seoDescription = t("hero.tagline");
 
-  const seoDescription =
-    featuredSeries?.description ||
-    photographer?.tagline ||
-    "Professional portrait photography portfolio featuring documentary, editorial, and commercial work.";
-
-  // Set page title and preload critical resources
   useEffect(() => {
     document.title = seoTitle;
-
-    // Preconnect to image CDN for faster loading
     const preconnectLink = document.createElement("link");
     preconnectLink.rel = "preconnect";
     preconnectLink.href = "https://images.unsplash.com";
     document.head.appendChild(preconnectLink);
-
     return () => {
       if (document.head.contains(preconnectLink)) {
         document.head.removeChild(preconnectLink);
@@ -39,7 +33,7 @@ export default function Home() {
   if (loading) {
     return (
       <Layout>
-        <SEO title="Loading..." description="Loading portfolio" />
+        <SEO title={t("loading")} description={t("loading")} />
         <div className="h-full flex items-center justify-center">
           <GallerySkeleton />
         </div>
@@ -50,16 +44,16 @@ export default function Home() {
   if (error) {
     return (
       <Layout>
-        <SEO title="Error" description="Error loading portfolio" />
+        <SEO title={t("error.title")} description={t("error.title")} />
         <div className="flex items-center justify-center h-full">
           <div className="text-center max-w-md px-4">
-            <p className="text-destructive font-semibold">Error loading portfolio</p>
-            <p className="mt-2 text-sm text-muted-foreground">{error}</p>
+            <p className="text-destructive font-semibold font-sans tracking-wider">{t("error.title")}</p>
+            <p className="mt-2 text-sm text-muted-foreground font-serif">{error}</p>
             <button
               onClick={() => window.location.reload()}
-              className="mt-4 px-4 py-2 bg-foreground text-background rounded hover:opacity-80 transition-opacity"
+              className="mt-4 px-4 py-2 bg-accent text-primary-foreground rounded hover:opacity-80 transition-opacity font-sans tracking-wider text-sm"
             >
-              Retry
+              {t("error.retry")}
             </button>
           </div>
         </div>
@@ -67,22 +61,34 @@ export default function Home() {
     );
   }
 
-  if (!featuredSeries) {
-    return (
-      <Layout>
-        <SEO title="No Series" description="No portfolio series available" />
-        <div className="flex items-center justify-center h-full">
-          <p className="text-muted-foreground">No portfolio series available</p>
-        </div>
-      </Layout>
-    );
-  }
-
   return (
     <Layout>
-      <SEO title={seoTitle} description={seoDescription} image={featuredSeries.images[0]?.src} type="website" />
-      <div className="h-full flex items-center justify-center">
-        <FilmstripGallery images={featuredSeries.images} />
+      <SEO
+        title={seoTitle}
+        description={seoDescription}
+        image={featuredSeries?.images[0]?.src}
+        type="website"
+      />
+      <div className="h-full flex flex-col items-center justify-center gap-8 lg:gap-12">
+        {/* Hero tagline */}
+        <div className="text-center max-w-2xl px-4">
+          <p className="font-serif italic text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed">
+            {t("hero.tagline")}
+          </p>
+          <div className="mt-4 flex items-center justify-center gap-3 text-accent">
+            <span className="h-px w-12 bg-accent/40" />
+            <span className="font-sans text-xs tracking-[0.4em]">✦ ✦ ✦</span>
+            <span className="h-px w-12 bg-accent/40" />
+          </div>
+        </div>
+
+        {featuredSeries ? (
+          <div className="w-full">
+            <FilmstripGallery images={featuredSeries.images} />
+          </div>
+        ) : (
+          <p className="text-muted-foreground font-serif italic">{t("gallery.empty")}</p>
+        )}
       </div>
     </Layout>
   );
