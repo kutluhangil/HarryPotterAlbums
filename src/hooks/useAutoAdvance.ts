@@ -13,7 +13,7 @@ export function useAutoAdvance({
 }: UseAutoAdvanceProps) {
   const [isPlaying, setIsPlaying] = useState(enabled);
   const [isPaused, setIsPaused] = useState(false);
-  const timerRef = useRef<NodeJS.Timeout>();
+  const timerRef = useRef<ReturnType<typeof setInterval> | undefined>(undefined);
 
   // Start/stop auto-advance
   useEffect(() => {
