@@ -1,0 +1,132 @@
+{
+  "id": "spells-01",
+  "title": { "tr": "Büyüler", "en": "Spells" },
+  "slug": "spells",
+  "description": {
+    "tr": "Aydınlatıcı tılsımlardan affedilmez lanetlere — büyücülüğün dili.",
+    "en": "From luminous charms to unforgivable curses — the language of magic."
+  },
+  "featured": false,
+  "images": [
+    {
+      "id": "spell-expelliarmus",
+      "src": "https://images.unsplash.com/photo-1532634922-8fe0b757fb13?auto=format&fit=crop&w=940&q=80",
+      "alt": "Expelliarmus — Disarming Charm",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Expelliarmus",
+        "profession": { "tr": "Silahsızlandırma Tılsımı", "en": "Disarming Charm" }
+      },
+      "metadata": {
+        "title": "Expelliarmus",
+        "year": "—",
+        "description": {
+          "tr": "Hedefin elindeki asayı havaya fırlatır. Harry Potter'ın imza büyüsü.",
+          "en": "Sends the target's wand flying. Harry Potter's signature spell."
+        },
+        "location": { "tr": "Etki: Silahsızlandırma", "en": "Effect: Disarm" },
+        "series": "spells"
+      }
+    },
+    {
+      "id": "spell-lumos",
+      "src": "https://images.unsplash.com/photo-1492136344046-866c85e0bf04?auto=format&fit=crop&w=940&q=80",
+      "alt": "Lumos — Wand-Lighting Charm",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Lumos",
+        "profession": { "tr": "Asa Aydınlatma Tılsımı", "en": "Wand-Lighting Charm" }
+      },
+      "metadata": {
+        "title": "Lumos",
+        "year": "—",
+        "description": {
+          "tr": "Asanın ucundan parlak bir ışık yayar. Karanlık koridorların ve yasak ormanın dostu.",
+          "en": "Emits a bright light from the wand's tip. Friend of dark corridors and the Forbidden Forest."
+        },
+        "location": { "tr": "Etki: Işık", "en": "Effect: Light" },
+        "series": "spells"
+      }
+    },
+    {
+      "id": "spell-wingardium",
+      "src": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=940&q=80",
+      "alt": "Wingardium Leviosa — Levitation Charm",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Wingardium Leviosa",
+        "profession": { "tr": "Havalandırma Tılsımı", "en": "Levitation Charm" }
+      },
+      "metadata": {
+        "title": "Wingardium Leviosa",
+        "year": "—",
+        "description": {
+          "tr": "Cisimleri havada yüzdürür. \"It's leviOsa, not levioSA!\"",
+          "en": "Causes objects to float in midair. \"It's leviOsa, not levioSA!\""
+        },
+        "location": { "tr": "Etki: Havalandırma", "en": "Effect: Levitation" },
+        "series": "spells"
+      }
+    },
+    {
+      "id": "spell-expecto",
+      "src": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?auto=format&fit=crop&w=940&q=80",
+      "alt": "Expecto Patronum — Patronus Charm",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Expecto Patronum",
+        "profession": { "tr": "Patronus Tılsımı", "en": "Patronus Charm" }
+      },
+      "metadata": {
+        "title": "Expecto Patronum",
+        "year": "—",
+        "description": {
+          "tr": "En güçlü mutlu anıyı çağıran büyücü, dementorlara karşı gümüşi bir koruyucu yaratır.",
+          "en": "Conjures a silvery guardian against Dementors, fueled by the wizard's happiest memory."
+        },
+        "location": { "tr": "Etki: Koruma", "en": "Effect: Protection" },
+        "series": "spells"
+      }
+    },
+    {
+      "id": "spell-avada",
+      "src": "https://images.unsplash.com/photo-1527176930608-09cb256ab504?auto=format&fit=crop&w=940&q=80",
+      "alt": "Avada Kedavra — Killing Curse",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Avada Kedavra",
+        "profession": { "tr": "Affedilmez Lanet · Ölüm Laneti", "en": "Unforgivable Curse · Killing Curse" }
+      },
+      "metadata": {
+        "title": "Avada Kedavra",
+        "year": "—",
+        "description": {
+          "tr": "Üç Affedilmez Lanet'ten en korkuncu. Yeşil bir ışık olarak fırlar; karşı koymak neredeyse imkânsızdır.",
+          "en": "The most feared of the three Unforgivable Curses. Strikes as a green flash — almost impossible to counter."
+        },
+        "location": { "tr": "Etki: Ölüm", "en": "Effect: Death" },
+        "series": "spells"
+      }
+    },
+    {
+      "id": "spell-alohomora",
+      "src": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=940&q=80",
+      "alt": "Alohomora — Unlocking Charm",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Alohomora",
+        "profession": { "tr": "Kilit Açma Tılsımı", "en": "Unlocking Charm" }
+      },
+      "metadata": {
+        "title": "Alohomora",
+        "year": "—",
+        "description": {
+          "tr": "Sıradan kilitleri açar. Hermione'nin ilk yıl klasiklerinden.",
+          "en": "Unlocks ordinary locks — one of Hermione's first-year classics."
+        },
+        "location": { "tr": "Etki: Kilit Açma", "en": "Effect: Unlock" },
+        "series": "spells"
+      }
+    }
+  ]
+}

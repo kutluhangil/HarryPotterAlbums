@@ -1,0 +1,132 @@
+{
+  "id": "items-01",
+  "title": { "tr": "Büyülü Eşyalar", "en": "Magical Items" },
+  "slug": "items",
+  "description": {
+    "tr": "Asalar, süpürgeler ve büyücülük dünyasının ikonik eşyaları.",
+    "en": "Wands, broomsticks and the iconic artifacts of the wizarding world."
+  },
+  "featured": false,
+  "images": [
+    {
+      "id": "item-elder-wand",
+      "src": "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?auto=format&fit=crop&w=940&q=80",
+      "alt": "The Elder Wand",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Elder Wand",
+        "profession": { "tr": "Asa · Mürver Ağacı, Tezerek Tüyü", "en": "Wand · Elder wood, Thestral tail core" }
+      },
+      "metadata": {
+        "title": "The Elder Wand",
+        "year": "—",
+        "description": {
+          "tr": "Ölüm Yadigârları'ndan biri; varlığı bilinen en güçlü asa. Sahibinin sadakati ölümle kazanılır.",
+          "en": "One of the Deathly Hallows — the most powerful wand ever made. Its allegiance is won through defeat."
+        },
+        "location": { "tr": "Sahip: Tarih boyunca değişti", "en": "Owner: Changed through history" },
+        "series": "items"
+      }
+    },
+    {
+      "id": "item-harry-wand",
+      "src": "https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=940&q=80",
+      "alt": "Harry Potter's Wand",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Harry's Wand",
+        "profession": { "tr": "Asa · Çobanpüskülü, Anka Tüyü", "en": "Wand · Holly wood, Phoenix feather core" }
+      },
+      "metadata": {
+        "title": "Harry's Wand",
+        "year": "1991",
+        "description": {
+          "tr": "11 inç, esnek. İçindeki anka tüyünün ikizi Voldemort'un asasındadır — kardeş asalar.",
+          "en": "Eleven inches, supple. Its phoenix feather has a twin in Voldemort's wand — brother wands."
+        },
+        "location": { "tr": "Ollivander · Diagon Yolu", "en": "Ollivanders · Diagon Alley" },
+        "series": "items"
+      }
+    },
+    {
+      "id": "item-firebolt",
+      "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=940&q=80",
+      "alt": "Firebolt — Racing Broomstick",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Firebolt",
+        "profession": { "tr": "Süpürge · Yarış Sınıfı", "en": "Broomstick · Racing Class" }
+      },
+      "metadata": {
+        "title": "Firebolt",
+        "year": "1993",
+        "description": {
+          "tr": "Uluslararası standart yarış süpürgesi. 0'dan 240 km/s hıza 10 saniyede ulaşır. Harry'nin üçüncü yılında hediye edilen efsanevi süpürge.",
+          "en": "An international standard racing broom. 0 to 150 mph in ten seconds. The legendary broom gifted to Harry in his third year."
+        },
+        "location": { "tr": "Quidditch Sahası · Hogwarts", "en": "Quidditch Pitch · Hogwarts" },
+        "series": "items"
+      }
+    },
+    {
+      "id": "item-nimbus",
+      "src": "https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=940&q=80",
+      "alt": "Nimbus 2000 — Broomstick",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Nimbus 2000",
+        "profession": { "tr": "Süpürge · Spor Sınıfı", "en": "Broomstick · Sport Class" }
+      },
+      "metadata": {
+        "title": "Nimbus 2000",
+        "year": "1991",
+        "description": {
+          "tr": "Harry'nin ilk süpürgesi; McGonagall tarafından Gryffindor Quidditch takımına hediye edildi.",
+          "en": "Harry's first broomstick, gifted by Professor McGonagall when he joined the Gryffindor Quidditch team."
+        },
+        "location": { "tr": "Quidditch Sahası · Hogwarts", "en": "Quidditch Pitch · Hogwarts" },
+        "series": "items"
+      }
+    },
+    {
+      "id": "item-cloak",
+      "src": "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?auto=format&fit=crop&w=940&q=80",
+      "alt": "Cloak of Invisibility",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Cloak of Invisibility",
+        "profession": { "tr": "Görünmezlik Pelerini · Ölüm Yadigârı", "en": "Invisibility Cloak · Deathly Hallow" }
+      },
+      "metadata": {
+        "title": "Cloak of Invisibility",
+        "year": "—",
+        "description": {
+          "tr": "Üç Ölüm Yadigârı'ndan biri. Nesilden nesile Potter ailesine geçti; sahibini tamamen gizler.",
+          "en": "One of the three Deathly Hallows. Passed down through the Potter family for generations — it conceals the wearer completely."
+        },
+        "location": { "tr": "Potter Ailesi", "en": "Potter Family" },
+        "series": "items"
+      }
+    },
+    {
+      "id": "item-uniform",
+      "src": "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=940&q=80",
+      "alt": "Hogwarts Uniform & House Robes",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Hogwarts Uniform",
+        "profession": { "tr": "Okul Üniforması · Bina Cübbeleri", "en": "School Uniform · House Robes" }
+      },
+      "metadata": {
+        "title": "Hogwarts Uniform",
+        "year": "—",
+        "description": {
+          "tr": "Siyah cübbe, beyaz gömlek, gri yelek ve binayı temsil eden kravat. Her bina kendi rengini taşır.",
+          "en": "Black robes, white shirt, grey jumper and a tie in house colors. Every house wears its own."
+        },
+        "location": { "tr": "Madam Malkin's · Diagon Yolu", "en": "Madam Malkin's · Diagon Alley" },
+        "series": "items"
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "characters-01",
+  "title": { "tr": "Karakterler", "en": "Characters" },
+  "slug": "characters",
+  "description": {
+    "tr": "Hogwarts'ın kahramanları, kötüleri ve unutulmaz figürleri.",
+    "en": "Heroes, villains and unforgettable faces of the Wizarding World."
+  },
+  "featured": true,
+  "images": [
+    {
+      "id": "char-harry",
+      "src": "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?auto=format&fit=crop&w=940&q=80",
+      "alt": "Harry Potter — The Boy Who Lived",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Harry Potter",
+        "profession": { "tr": "Yaşayan Çocuk · Gryffindor", "en": "The Boy Who Lived · Gryffindor" }
+      },
+      "metadata": {
+        "title": "Harry Potter",
+        "year": "1980",
+        "description": {
+          "tr": "Lily ve James Potter'ın oğlu, Voldemort'un laneti karşısında hayatta kalan tek kişi. Cesaret, sadakat ve kararlılığın simgesi.",
+          "en": "Son of Lily and James Potter, the only one to survive Voldemort's curse. A symbol of courage, loyalty and resolve."
+        },
+        "location": { "tr": "Hogwarts · Gryffindor Kulesi", "en": "Hogwarts · Gryffindor Tower" },
+        "series": "characters"
+      }
+    },
+    {
+      "id": "char-hermione",
+      "src": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=940&q=80",
+      "alt": "Hermione Granger — The Brightest Witch of Her Age",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Hermione Granger",
+        "profession": { "tr": "Çağının En Parlak Cadısı · Gryffindor", "en": "Brightest Witch of Her Age · Gryffindor" }
+      },
+      "metadata": {
+        "title": "Hermione Granger",
+        "year": "1979",
+        "description": {
+          "tr": "Muggle ailesinden gelen olağanüstü zekâda bir cadı. Adalet duygusu kuvvetli, sadık dost; Harry ve Ron'un ayrılmaz üçlüsünün beyni.",
+          "en": "A muggle-born witch of remarkable intellect. Fiercely just and loyal — the brains of the inseparable trio with Harry and Ron."
+        },
+        "location": { "tr": "Hogwarts Kütüphanesi", "en": "Hogwarts Library" },
+        "series": "characters"
+      }
+    },
+    {
+      "id": "char-ron",
+      "src": "https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?auto=format&fit=crop&w=940&q=80",
+      "alt": "Ron Weasley — Loyal friend of the trio",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Ron Weasley",
+        "profession": { "tr": "Sadık Dost · Gryffindor", "en": "Loyal Friend · Gryffindor" }
+      },
+      "metadata": {
+        "title": "Ron Weasley",
+        "year": "1980",
+        "description": {
+          "tr": "Weasley ailesinin altıncı oğlu. Mizahıyla ekibi ayakta tutan, sınanırken büyüyen genç bir büyücü.",
+          "en": "Sixth son of the Weasley family. A young wizard whose humor holds the team together — and who grows when tested."
+        },
+        "location": { "tr": "Kovuk · The Burrow", "en": "The Burrow" },
+        "series": "characters"
+      }
+    },
+    {
+      "id": "char-voldemort",
+      "src": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=940&q=80",
+      "alt": "Lord Voldemort — He Who Must Not Be Named",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Lord Voldemort",
+        "profession": { "tr": "Adı Anılmaması Gereken · Slytherin", "en": "He Who Must Not Be Named · Slytherin" }
+      },
+      "metadata": {
+        "title": "Lord Voldemort",
+        "year": "1926",
+        "description": {
+          "tr": "Tom Marvolo Riddle. Ölümsüzlüğü arayan ve yedi Hortkuluk yaratan karanlık büyücü; büyücülük dünyasının en büyük tehdidi.",
+          "en": "Born Tom Marvolo Riddle. The dark wizard who sought immortality through seven Horcruxes — the gravest threat the wizarding world has ever known."
+        },
+        "location": { "tr": "Riddle Konağı · Little Hangleton", "en": "Riddle House · Little Hangleton" },
+        "series": "characters"
+      }
+    },
+    {
+      "id": "char-dumbledore",
+      "src": "https://images.unsplash.com/photo-1558981852-426c6c22a060?auto=format&fit=crop&w=940&q=80",
+      "alt": "Albus Dumbledore — Headmaster of Hogwarts",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Albus Dumbledore",
+        "profession": { "tr": "Hogwarts Müdürü · Phoenix Tarikatı", "en": "Headmaster of Hogwarts · Order of the Phoenix" }
+      },
+      "metadata": {
+        "title": "Albus Dumbledore",
+        "year": "1881",
+        "description": {
+          "tr": "Çağın en güçlü büyücüsü olarak kabul edilen, bilge ve gizemli müdür. Phoenix Tarikatı'nın kurucusu, Grindelwald'ı yenen büyücü.",
+          "en": "Widely regarded as the greatest wizard of the age. Wise, mysterious headmaster, founder of the Order of the Phoenix and vanquisher of Grindelwald."
+        },
+        "location": { "tr": "Müdür Ofisi · Hogwarts", "en": "Headmaster's Office · Hogwarts" },
+        "series": "characters"
+      }
+    },
+    {
+      "id": "char-snape",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=940&q=80",
+      "alt": "Severus Snape — The Half-Blood Prince",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Severus Snape",
+        "profession": { "tr": "İksir Hocası · Melez Prens", "en": "Potions Master · The Half-Blood Prince" }
+      },
+      "metadata": {
+        "title": "Severus Snape",
+        "year": "1960",
+        "description": {
+          "tr": "İksir ustası ve Slytherin baş öğretmeni. Görünenden çok daha derin bir hikâyeye sahip; tek bir kelimeyle özetlenir: 'Always.'",
+          "en": "Potions Master and Head of Slytherin. A man with a story far deeper than it appears — summed up in a single word: 'Always.'"
+        },
+        "location": { "tr": "Zindan Sınıfı · Hogwarts", "en": "Dungeon Classroom · Hogwarts" },
+        "series": "characters"
+      }
+    },
+    {
+      "id": "char-mcgonagall",
+      "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=940&q=80",
+      "alt": "Minerva McGonagall — Transfiguration Mistress",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Minerva McGonagall",
+        "profession": { "tr": "Dönüşüm Hocası · Gryffindor Başı", "en": "Transfiguration Mistress · Head of Gryffindor" }
+      },
+      "metadata": {
+        "title": "Minerva McGonagall",
+        "year": "1935",
+        "description": {
+          "tr": "Sert ama adil bir öğretmen, animagus, ve Gryffindor'un kalbi. Dumbledore'un en güvendiği müttefiklerinden.",
+          "en": "Stern yet fair professor, animagus, and the heart of Gryffindor. One of Dumbledore's most trusted allies."
+        },
+        "location": { "tr": "Dönüşüm Sınıfı · Hogwarts", "en": "Transfiguration Classroom · Hogwarts" },
+        "series": "characters"
+      }
+    },
+    {
+      "id": "char-hagrid",
+      "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=940&q=80",
+      "alt": "Rubeus Hagrid — Keeper of Keys and Grounds",
+      "aspectRatio": 0.72,
+      "caption": {
+        "subject": "Rubeus Hagrid",
+        "profession": { "tr": "Anahtar Bekçisi · Sihirli Yaratıklar", "en": "Keeper of Keys · Care of Magical Creatures" }
+      },
+      "metadata": {
+        "title": "Rubeus Hagrid",
+        "year": "1928",
+        "description": {
+          "tr": "Yarı dev, kocaman bir kalbe sahip Hogwarts'ın anahtar bekçisi. Yasak Orman'ın ve sihirli yaratıkların dostu.",
+          "en": "A half-giant with a heart to match — keeper of keys at Hogwarts and friend to every magical creature in the Forbidden Forest."
+        },
+        "location": { "tr": "Hagrid'in Kulübesi", "en": "Hagrid's Hut" },
+        "series": "characters"
+      }
+    }
+  ]
+}

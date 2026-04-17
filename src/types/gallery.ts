@@ -1,3 +1,6 @@
+// Localized string: either a plain string (legacy) or a TR/EN object.
+export type LocalizedString = string | { tr: string; en: string };
+
 export interface GalleryImage {
   id: string;
   src: string;
@@ -6,13 +9,13 @@ export interface GalleryImage {
   aspectRatio: number;
   caption: {
     subject: string;
-    profession: string;
+    profession: LocalizedString;
   };
   metadata: {
     title: string;
     year: string;
-    description?: string;
-    location?: string;
+    description?: LocalizedString;
+    location?: LocalizedString;
     camera?: string;
     series: string;
   };
@@ -20,9 +23,9 @@ export interface GalleryImage {
 
 export interface PortfolioSeries {
   id: string;
-  title: string;
+  title: LocalizedString;
   slug: string;
-  description: string;
+  description: LocalizedString;
   images: GalleryImage[];
   featured: boolean;
 }

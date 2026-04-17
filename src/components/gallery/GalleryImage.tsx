@@ -119,7 +119,9 @@ export function GalleryImage({ image, isActive, onClick, priority = false }: Gal
               {image.caption.subject}
             </p>
             <p className="font-normal text-white text-[0.9375rem] leading-5 opacity-90">
-              {image.caption.profession}
+              {typeof image.caption.profession === "string"
+                ? image.caption.profession
+                : image.caption.profession.en}
             </p>
           </div>
         </div>
